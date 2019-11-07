@@ -13,5 +13,6 @@ for i in range(1, 3+1):
 
   if guess == answer:
       print('good job')
+      break
   else:
       print('nobe')
