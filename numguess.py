@@ -9,7 +9,9 @@ print(guess, type(guess))
 # static value is left 
 # for remark
 
-if guess == answer:
-    print('good job')
-else:
-    print('nobe')
+for i in range(1, 3+1):
+
+  if guess == answer:
+      print('good job')
+  else:
+      print('nobe')
