@@ -7,7 +7,11 @@ guess = int(input('guess the number :'))
 
 print(guess, type(guess))
 # static value is left 
-if guess == answer:
-    print('good job')
-else:
-    print('nobe')
+# for remark
+
+for i in range(1, 3+1):
+
+  if guess == answer:
+      print('good job')
+  else:
+      print('nobe')
