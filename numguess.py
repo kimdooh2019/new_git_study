@@ -7,6 +7,8 @@ guess = int(input('guess the number :'))
 
 print(guess, type(guess))
 # static value is left 
+# for remark
+
 if guess == answer:
     print('good job')
 else:
